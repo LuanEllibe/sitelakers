@@ -1,0 +1,120 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+
+:root {
+    --cor1:#9980F2;
+    --cor2:#8352EB;
+    --cor3:#5E35B1;
+    --cor4:#ffe600;
+    --cor5:#FFB300;
+
+    --font1: arial, verdana, helvetica, sans-serif;
+    --font2: "Funnel Display", serif, auto, normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor1);
+    margin: 0;
+    font-family: var(--font1);
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1em;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    color: white;
+    font-family: var(--font2);
+    text-align: center;
+    min-height: 100px;
+    
+}
+
+header > h1 {
+    padding-top: 10px;
+    font-size: 2em;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.500);
+}
+
+header > p {
+    padding-bottom: 10px;
+    font-size: 1em;
+}
+
+nav {
+    background-color: var(--cor4);
+    padding: 10px;
+    box-shadow: 0px 7px 7px #fff38762;
+    }
+
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    color: var(--cor3);
+    font-weight: bold;
+}
+
+nav > a:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #fffef3;
+}
+
+main h1 {
+    background-image: linear-gradient(to right, #fff175, transparent);
+}
+
+main ul {
+    list-style-position: inside;
+}
+
+main img {
+    width: 70%;
+}
+
+main h1, h2, h3{
+    color: var(--cor3);
+    padding-left: 50px;
+}
+
+aside {
+    margin-top: 30px;
+    background-color: #9980f265;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    height: 70px;
+    background-color: var(--cor4);
+    color: var(--cor3);
+    font-weight: bold;
+    columns: 2;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+footer  a {
+    color: var(--cor3);
+    text-decoration: none;
+}
